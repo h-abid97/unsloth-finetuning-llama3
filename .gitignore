@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Unsloth compiled cache
+unsloth_compiled_cache/
+
+# Model checkpoints and outputs
+outputs/
+finetuned_model/
+
+# Dataset cache
+~/.cache/
+.cache/
+**/cache/
+
+# Hugging Face cache
+~/.huggingface/
+.huggingface/
+~/.cache/huggingface/
+.cache/huggingface/
+
+# Logs and system files
+*.log
+*.tmp
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Environment/config files
+.env
+.env.*

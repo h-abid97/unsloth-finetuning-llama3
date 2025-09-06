@@ -1,6 +1,7 @@
 # 🦥 Unsloth Fine-Tuning: LLaMA 3.2B on FineTome-100k
 
 This project demonstrates how to fine-tune a 4-bit quantized [LLaMA 3.2B Instruct](https://huggingface.co/unsloth/Llama-3.2-3B-Instruct) model using the [Unsloth](https://github.com/unslothai/unsloth) framework, [LoRA adapters](https://arxiv.org/abs/2106.09685), and Hugging Face's [TRL](https://github.com/huggingface/trl) library.  
+
 We use the `FineTome-100k` dataset (ShareGPT-style dialogues) for efficient **supervised fine-tuning (SFT)** with LoRA on a single NVIDIA A100 GPU.
 
 ---

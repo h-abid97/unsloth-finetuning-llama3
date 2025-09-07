@@ -32,3 +32,6 @@ finetuned_model/
 # Environment/config files
 .env
 .env.*
+
+# Misc
+export/
